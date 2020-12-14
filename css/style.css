@@ -1,0 +1,278 @@
+body{
+	font-family: DIN 2014, 'Times New Roman', Sans-serif;
+	font-size:17px;
+	padding:0;
+	margin:auto;
+	background-color:#fde5c5;
+}
+
+.container {
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    position: absolute;
+    padding-top: 38px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    height: 210px;
+}
+
+header .logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 108px;
+    width: 278px;
+}
+
+header .logo img {
+    width: 172px;
+    height: auto;
+    padding: 13px 14px 13px 13px;
+}
+
+header .nav-wrapper {
+    display: inline-block;
+    float: right;
+    padding-right: 145px;
+}
+
+header .top-nav {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 0 70px;
+}
+
+header .top-nav ul {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+header .top-nav li {
+    display: inline-block;
+    padding: 0 6px;
+}
+
+.top-nav a{
+	color: white;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-sm-12 {
+    width: 100%;
+}
+header ul.nav {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+}
+
+header ul.nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul.nav li a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    font-family: Baskerville;
+    font-weight: 600;
+	text-decoration:none;
+}
+
+#section-intro {
+    width: 100%;
+    height: 100vh;
+    min-height: 980px;
+    background-image: url(../img/home_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0;
+    display: table;
+    position: relative;
+}
+
+#section-intro .hcnl-info {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 884px;
+    padding: 302px 115px 115px;
+}
+
+#section-intro .hcnl-info h2 {
+    padding-left: 9px;
+    padding-bottom: 18px;
+    margin: -15px 0 0;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -.69px;
+    font-style: italic;
+    line-height: 55px;
+    font-family: Baskerville;
+}
+
+#section-intro .hcnl-info h1 {
+    margin: 0;
+    color: #fcca8c;
+    font-size: 120px;
+    font-style: italic;
+    letter-spacing: -2.07px;
+    line-height: 125px;
+    font-family: Baskerville;
+}
+#section-intro .hcnl-info h2:last-of-type {
+    padding-top: 34px;
+    padding-bottom: 0;
+}
+
+#about-hcnl {
+    position: relative;
+    padding-top: 103px;
+}
+
+#about-hcnl .logo-seal {
+    position: absolute;
+    right: 60px;
+    top: -86px;
+    width: auto;
+    max-width: 171px;
+    height: 155px;
+}
+
+.content-slider-wrapper .text-cell {
+    padding: 0 90px;
+    width: 100%;
+}
+
+.content-slider-wrapper#hegra-conference-slider .text-cell h2 {
+    padding-top: 50px;
+    padding-left: 0;
+}
+
+.content-slider-wrapper .text-cell a {
+    margin-top: 20px;
+}
+
+.content-slider-wrapper .slider {
+    width: 52%;
+}
+
+.content-slider-wrapper .text-cell {
+    padding: 0 90px;
+    width: 100%;
+}
+
+.content-slider-wrapper#royal-commision .text-cell .text-infomation {
+    padding-top: 27px;
+    padding-right: 15px;
+}
+
+.content-slider-wrapper .text-cell p {
+    margin: 0;
+    padding-top: 22px;
+    color: #000;
+    font-family: DIN 2014;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#transmission-sec {
+    background-color: #0f1721;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-slider-wrapper .text-cell h2 {
+    margin: 0;
+    padding-top: 50px;
+    color: #0f1721;
+    font-family: Baskerville;
+    font-size: 64px;
+    font-style: italic;
+    letter-spacing: -1.4px;
+    line-height: 66px;
+} 
+
+#transmission-sec .transmission-desc {
+
+    padding-left: 75px;
+    padding-right: 30px;
+
+}
+#transmission-sec .transmission-desc h2 {
+    color: #fde5c5;
+    font-family: Baskerville;
+    font-style: italic;
+    font-size: 64px;
+    letter-spacing: -1.4px;
+    line-height: 66px;
+}
+
+#transmission-sec .transmission-desc p {
+    padding-top: 22px;
+    font-family: DIN 2014;
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+#transmission-sec .transmission-img {
+    padding-top: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    background-color: #fde5c5;
+}
+
+.footer_twitter{
+	padding:0 0 0100px;
+}
+
+.col{
+	padding:0 100px 0 100px;
+	float:left;
+}
+
+#footer_img{
+    width: 150px;
+    height: auto;
+}
+
+.copyright{
+	text-align:center;
+	margin-left:50px;
+	float:center;
+}
+
+footer a, footer label{
+	color:black;
+	text-decoration:none;
+	font-size:14px;
+}
